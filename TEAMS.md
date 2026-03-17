@@ -13,4 +13,4 @@
 | **Team 9** | D S Mohanta Julliet <br> Jayesh Agarwal <br> Vidwathkalpa Gundaram <br> Aditya Roy | Saiesh |
 | **Team 10** | Nandini Singh <br> Oruganti Mokshit Sarma <br> Ridhima Meena <br> Sandhya S <br> Bhargavi Deo | Rupesh |
 | **Team 11** | Karanam Sai Sruthi <br> M V N S Supreet <br> Ananya Jain <br> Malvika Pandey | Kavish |
-| **Team 12** | Abhyudita Tripathi <br> Gaurvi Gupta <br> Suhani Singh <br> Aditya Gupta <br> Oishik Pal | Kritya |
+| **Team 12** | Abhyudita Tripathi <br> Gaurvi Gupta <br> Suhani Singh <br> Aditya Gupta <br> Oishik Pal | Shreyash |
