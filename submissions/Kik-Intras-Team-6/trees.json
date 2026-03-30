@@ -1,0 +1,1402 @@
+{
+  "2": {
+    "coin": "Bitcoin",
+    "acc": 0.5041,
+    "tree": {
+      "feature": "ma7_vs_ma30",
+      "threshold": 0.019104,
+      "left": {
+        "feature": "rolling_ret3",
+        "threshold": -0.050435,
+        "left": {
+          "feature": "ret_1d",
+          "threshold": 0.631454,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "High",
+          "threshold": -0.576538,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      },
+      "right": {
+        "feature": "Open",
+        "threshold": 2.542831,
+        "left": {
+          "feature": "ret_1d_lag3",
+          "threshold": 0.010385,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "ret_1d_lag2",
+          "threshold": -0.009116,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      }
+    }
+  },
+  "11": {
+    "coin": "Litecoin",
+    "acc": 0.5215,
+    "tree": {
+      "feature": "body",
+      "threshold": -0.027071,
+      "left": {
+        "feature": "rolling_ret3",
+        "threshold": -0.071691,
+        "left": {
+          "feature": "ret_1d_lag2",
+          "threshold": 0.029326,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "ma_7",
+          "threshold": 1.629387,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      },
+      "right": {
+        "feature": "rolling_ret3",
+        "threshold": -0.004013,
+        "left": {
+          "feature": "vol_change",
+          "threshold": 0.176037,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "ma_7",
+          "threshold": -0.765813,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "22": {
+    "coin": "XRP",
+    "acc": 0.4962,
+    "tree": {
+      "feature": "ret_1d",
+      "threshold": -1.079374,
+      "left": {
+        "feature": "vol_change",
+        "threshold": -0.02071,
+        "left": {
+          "feature": "ret_1d",
+          "threshold": -1.52681,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "ret_1d_lag3",
+          "threshold": -0.037628,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      },
+      "right": {
+        "feature": "close_vs_ma",
+        "threshold": 0.209529,
+        "left": {
+          "feature": "close_vs_ma",
+          "threshold": 0.193034,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "close_vs_ma",
+          "threshold": 0.256331,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      }
+    }
+  },
+  "7": {
+    "coin": "Dogecoin",
+    "acc": 0.522,
+    "tree": {
+      "feature": "rolling_ret3",
+      "threshold": -0.071635,
+      "left": {
+        "feature": "ret_1d_lag3",
+        "threshold": 0.058192,
+        "left": {
+          "feature": "ret_1d_lag1",
+          "threshold": -0.005269,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "ret_1d_lag3",
+          "threshold": 0.151008,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      },
+      "right": {
+        "feature": "Unnamed: 0",
+        "threshold": 1480.5,
+        "left": {
+          "feature": "hl_range",
+          "threshold": 0.08217,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "ret_1d",
+          "threshold": -0.137394,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "12": {
+    "coin": "Monero",
+    "acc": 0.4988,
+    "tree": {
+      "feature": "body",
+      "threshold": -0.041083,
+      "left": {
+        "feature": "ret_1d_lag1",
+        "threshold": 0.080763,
+        "left": {
+          "feature": "Unnamed: 0",
+          "threshold": 1788.0,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "body",
+          "threshold": -0.131033,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      },
+      "right": {
+        "feature": "volatility",
+        "threshold": -0.198077,
+        "left": {
+          "feature": "Unnamed: 0",
+          "threshold": 1971.0,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "Low",
+          "threshold": -0.827951,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "16": {
+    "coin": "Stellar",
+    "acc": 0.5142,
+    "tree": {
+      "feature": "ret_1d",
+      "threshold": -0.604403,
+      "left": {
+        "feature": "Open",
+        "threshold": -0.710575,
+        "left": {
+          "feature": "ret_1d_lag2",
+          "threshold": 0.033154,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "ma_30",
+          "threshold": -0.718849,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      },
+      "right": {
+        "feature": "Unnamed: 0",
+        "threshold": 22598.5,
+        "left": {
+          "feature": "ma_30",
+          "threshold": 1.000748,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "volatility",
+          "threshold": 1.117026,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "13": {
+    "coin": "NEM",
+    "acc": 0.5269,
+    "tree": {
+      "feature": "ret_1d",
+      "threshold": -0.58674,
+      "left": {
+        "feature": "ma_30",
+        "threshold": 1.376723,
+        "left": {
+          "feature": "rolling_ret3",
+          "threshold": -0.054579,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "close_vs_ma",
+          "threshold": -0.317731,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      },
+      "right": {
+        "feature": "vol_change",
+        "threshold": 0.406197,
+        "left": {
+          "feature": "ret_1d_lag1",
+          "threshold": 0.12993,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "Unnamed: 0",
+          "threshold": 34542.0,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      }
+    }
+  },
+  "9": {
+    "coin": "Ethereum",
+    "acc": 0.5164,
+    "tree": {
+      "feature": "body",
+      "threshold": -0.016982,
+      "left": {
+        "feature": "vol_change",
+        "threshold": -0.019268,
+        "left": {
+          "feature": "Unnamed: 0",
+          "threshold": 10409.0,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "rolling_ret3",
+          "threshold": -0.053365,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      },
+      "right": {
+        "feature": "close_vs_ma",
+        "threshold": 0.01626,
+        "left": {
+          "feature": "rolling_ret3",
+          "threshold": -0.050472,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "Close",
+          "threshold": -0.644552,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      }
+    }
+  },
+  "17": {
+    "coin": "Tether",
+    "acc": 0.6291,
+    "tree": {
+      "feature": "close_vs_ma",
+      "threshold": -0.000302,
+      "left": {
+        "feature": "body",
+        "threshold": -0.000301,
+        "left": {
+          "feature": "Unnamed: 0",
+          "threshold": 9528.5,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "Close",
+          "threshold": -0.128381,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      },
+      "right": {
+        "feature": "Close",
+        "threshold": -0.121537,
+        "left": {
+          "feature": "ma_7",
+          "threshold": -0.147146,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "Unnamed: 0",
+          "threshold": 8817.5,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "10": {
+    "coin": "Iota",
+    "acc": 0.5328,
+    "tree": {
+      "feature": "ret_1d",
+      "threshold": -0.770203,
+      "left": {
+        "feature": "ret_1d_lag3",
+        "threshold": 0.02033,
+        "left": {
+          "feature": "day_of_week",
+          "threshold": 2.5,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "Low",
+          "threshold": 3.801022,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      },
+      "right": {
+        "feature": "ret_1d_lag3",
+        "threshold": -0.056185,
+        "left": {
+          "feature": "vol_change",
+          "threshold": -0.27178,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "ma_30",
+          "threshold": -0.552428,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "8": {
+    "coin": "EOS",
+    "acc": 0.5101,
+    "tree": {
+      "feature": "ret_1d",
+      "threshold": -0.035981,
+      "left": {
+        "feature": "Unnamed: 0",
+        "threshold": 11348.0,
+        "left": {
+          "feature": "close_vs_ma",
+          "threshold": -0.406086,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "Close",
+          "threshold": -0.684191,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      },
+      "right": {
+        "feature": "ret_1d_lag3",
+        "threshold": -0.030924,
+        "left": {
+          "feature": "ret_7d",
+          "threshold": -0.468538,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "ma_30",
+          "threshold": -1.364649,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "1": {
+    "coin": "BinanceCoin",
+    "acc": 0.4769,
+    "tree": {
+      "feature": "rolling_ret3",
+      "threshold": -0.062801,
+      "left": {
+        "feature": "Unnamed: 0",
+        "threshold": 10756.0,
+        "left": {
+          "leaf": true,
+          "value": 0
+        },
+        "right": {
+          "feature": "Open",
+          "threshold": 2.420228,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      },
+      "right": {
+        "feature": "ret_1d_lag1",
+        "threshold": -0.103384,
+        "left": {
+          "feature": "ret_1d_lag3",
+          "threshold": -0.026325,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "hl_range",
+          "threshold": 0.023561,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      }
+    }
+  },
+  "18": {
+    "coin": "Tron",
+    "acc": 0.5177,
+    "tree": {
+      "feature": "ma_7",
+      "threshold": -0.377536,
+      "left": {
+        "feature": "Volume",
+        "threshold": 0.524674,
+        "left": {
+          "feature": "Volume",
+          "threshold": 0.26567,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "ret_1d_lag3",
+          "threshold": 0.016751,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      },
+      "right": {
+        "feature": "ret_1d_lag2",
+        "threshold": 0.286798,
+        "left": {
+          "feature": "Close",
+          "threshold": 3.543843,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "leaf": true,
+          "value": 1
+        }
+      }
+    }
+  },
+  "4": {
+    "coin": "ChainLink",
+    "acc": 0.5009,
+    "tree": {
+      "feature": "body",
+      "threshold": -0.008117,
+      "left": {
+        "feature": "Unnamed: 0",
+        "threshold": 15666.0,
+        "left": {
+          "feature": "Low",
+          "threshold": -0.634835,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "ret_1d_lag3",
+          "threshold": -0.079815,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      },
+      "right": {
+        "feature": "ret_1d_lag3",
+        "threshold": 0.081618,
+        "left": {
+          "feature": "ret_1d",
+          "threshold": -0.166354,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "vol_change",
+          "threshold": -0.059079,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "3": {
+    "coin": "Cardano",
+    "acc": 0.5067,
+    "tree": {
+      "feature": "ret_1d",
+      "threshold": -0.650184,
+      "left": {
+        "feature": "High",
+        "threshold": 0.468389,
+        "left": {
+          "feature": "Volume",
+          "threshold": -0.323056,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "ret_1d_lag2",
+          "threshold": -0.018772,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      },
+      "right": {
+        "feature": "ma_30",
+        "threshold": -0.530242,
+        "left": {
+          "feature": "rolling_ret3",
+          "threshold": -0.007162,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "body",
+          "threshold": -0.041448,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "19": {
+    "coin": "USDCoin",
+    "acc": 0.5404,
+    "tree": {
+      "feature": "close_vs_ma",
+      "threshold": 5.9e-05,
+      "left": {
+        "feature": "ret_1d",
+        "threshold": -0.043357,
+        "left": {
+          "feature": "volatility",
+          "threshold": 0.102081,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "ret_1d_lag1",
+          "threshold": -6.5e-05,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      },
+      "right": {
+        "feature": "body",
+        "threshold": 0.0002,
+        "left": {
+          "feature": "ret_1d_lag2",
+          "threshold": 0.007898,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "ret_1d_lag1",
+          "threshold": 0.00334,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      }
+    }
+  },
+  "6": {
+    "coin": "CryptocomCoin",
+    "acc": 0.5463,
+    "tree": {
+      "feature": "Unnamed: 0",
+      "threshold": 24110.5,
+      "left": {
+        "feature": "Volume",
+        "threshold": -0.526638,
+        "left": {
+          "feature": "ret_1d_lag1",
+          "threshold": 0.003373,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "Open",
+          "threshold": -1.344958,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      },
+      "right": {
+        "feature": "ret_1d_lag3",
+        "threshold": -0.109402,
+        "left": {
+          "feature": "ret_1d_lag1",
+          "threshold": -0.08681,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "close_vs_ma",
+          "threshold": 0.039814,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      }
+    }
+  },
+  "21": {
+    "coin": "WrappedBitcoin",
+    "acc": 0.4972,
+    "tree": {
+      "feature": "Close",
+      "threshold": -0.779665,
+      "left": {
+        "feature": "vol_change",
+        "threshold": -0.048159,
+        "left": {
+          "feature": "rolling_ret3",
+          "threshold": 0.007701,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "hl_range",
+          "threshold": 0.013251,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      },
+      "right": {
+        "feature": "ret_1d",
+        "threshold": -2.028763,
+        "left": {
+          "feature": "vol_change",
+          "threshold": 0.596084,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "body",
+          "threshold": 0.039392,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "5": {
+    "coin": "Cosmos",
+    "acc": 0.506,
+    "tree": {
+      "feature": "close_vs_ma",
+      "threshold": 0.121981,
+      "left": {
+        "feature": "close_vs_ma",
+        "threshold": 0.11524,
+        "left": {
+          "feature": "High",
+          "threshold": -0.812357,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "leaf": true,
+          "value": 1
+        }
+      },
+      "right": {
+        "feature": "close_vs_ma",
+        "threshold": 0.140199,
+        "left": {
+          "feature": "Unnamed: 0",
+          "threshold": 21031.5,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        },
+        "right": {
+          "feature": "hl_range",
+          "threshold": 0.041771,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "15": {
+    "coin": "Solana",
+    "acc": 0.4696,
+    "tree": {
+      "feature": "Close",
+      "threshold": 2.263396,
+      "left": {
+        "feature": "month",
+        "threshold": 8.5,
+        "left": {
+          "feature": "rolling_ret7",
+          "threshold": 0.004543,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "rolling_ret7",
+          "threshold": -0.017126,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      },
+      "right": {
+        "feature": "close_vs_ma",
+        "threshold": 0.123071,
+        "left": {
+          "feature": "close_vs_ma",
+          "threshold": 0.068009,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "leaf": true,
+          "value": 0
+        }
+      }
+    }
+  },
+  "14": {
+    "coin": "Polkadot",
+    "acc": 0.4979,
+    "tree": {
+      "feature": "Low",
+      "threshold": -1.129698,
+      "left": {
+        "leaf": true,
+        "value": 1
+      },
+      "right": {
+        "feature": "ret_1d_lag3",
+        "threshold": -0.110212,
+        "left": {
+          "leaf": true,
+          "value": 0
+        },
+        "right": {
+          "feature": "ret_1d_lag1",
+          "threshold": -0.094692,
+          "left": {
+            "leaf": true,
+            "value": 1
+          },
+          "right": {
+            "leaf": true,
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+  "20": {
+    "coin": "Uniswap",
+    "acc": 0.5,
+    "tree": {
+      "feature": "rolling_ret3",
+      "threshold": -0.023605,
+      "left": {
+        "feature": "day_of_week",
+        "threshold": 1.5,
+        "left": {
+          "feature": "Volume",
+          "threshold": -0.618774,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "vol_change",
+          "threshold": -0.170074,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      },
+      "right": {
+        "feature": "Close",
+        "threshold": 0.966311,
+        "left": {
+          "feature": "Unnamed: 0",
+          "threshold": 30800.0,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "ret_1d_lag1",
+          "threshold": 0.093978,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      }
+    }
+  },
+  "0": {
+    "coin": "Aave",
+    "acc": 0.5282,
+    "tree": {
+      "feature": "volatility",
+      "threshold": -0.757121,
+      "left": {
+        "feature": "Close",
+        "threshold": 0.987077,
+        "left": {
+          "feature": "Close",
+          "threshold": 0.857802,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        },
+        "right": {
+          "feature": "ma_30",
+          "threshold": 1.012852,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      },
+      "right": {
+        "feature": "ret_1d_lag3",
+        "threshold": -0.129224,
+        "left": {
+          "leaf": true,
+          "value": 0
+        },
+        "right": {
+          "feature": "vol_change",
+          "threshold": -0.11038,
+          "left": {
+            "leaf": true,
+            "value": 0
+          },
+          "right": {
+            "leaf": true,
+            "value": 1
+          }
+        }
+      }
+    }
+  }
+}
