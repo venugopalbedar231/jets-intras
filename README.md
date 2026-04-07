@@ -3,7 +3,7 @@
 ---
 
 ## 👥 Team Name
-Team
+Team 6
 
 ---
 
